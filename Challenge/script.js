@@ -39,8 +39,9 @@ $(document).ready(function(){
 	}
 
 	// Change styles of containers
-	$(".bigbox").css({"display":"flex", "flex-wrap": "wrap", "justify-content": "space-around", "width" : "100%", "background-color": "black"})
-	$(".smallbox").css({"width": "30%", "background-color":"grey", "display":"flex", "justify-content":"center", "flex-direction":"column", "align-items":"center", "margin":"2% 0"})
-	$("img").css({"height": "25vw"})
+	$(".bigbox").css({"display":"flex", "flex-wrap": "wrap", "justify-content": "space-around", "width" : "100%", "background-color": "grey"})
+	$(".smallbox").css({"width": "30%", "background-color":"lightgrey", "display":"flex", "justify-content":"center", "flex-direction":"column", "align-items":"center", "margin":"2% 0", "border-radius": "4vw", "box-shadow":"0.3vw 0.3vw 0.3vw 0.3vw"})
+	$("img").css("height", "25vw")
+	$("p").css({"font-size": "2.2vw", "padding" : "3%"})
 
 	});
