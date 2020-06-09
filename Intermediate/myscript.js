@@ -5,13 +5,14 @@ $("form").submit(function(e) {
 
 });
 
+$("#msg").attr("value", "Search for...")
 
-//$("#myform").css("display", "none")
+$("#myform").remove()
 
 var newdiv = $('<div></div> <div></div> <div></div> <div></div> <div></div>')
 $("article").prepend(newdiv)
 
-$("#msg").attr("value", "Search for...")
+
 
 $("div").addClass("box")
 
